@@ -38,7 +38,7 @@
 
 	<!-- サブプロジェクト -->
 	<modules>
+		<module>sanvitalia-commons</module>
 		<module>sanvitalia-server</module>
-    <module>sanvitalia-commons</module>
   </modules>
 </project>
