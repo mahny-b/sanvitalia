@@ -57,7 +57,7 @@ sanvitalia
 # サブプロジェクトの追加方法
 
 ## jarプロジェクト
-- Windows
+### Windows
 
     mvn archetype:generate ^
     -DgroupId=jp.gr.java_conf.mahny.sanvitalia.sanvitalia_commons ^
@@ -75,7 +75,7 @@ sanvitalia
 
 
 ## warプロジェクト
-- Windows
+### Windows
 
     mvn archetype:generate ^
     -DgroupId=jp.gr.java_conf.mahny.sanvitalia.sanvitalia_server ^
@@ -91,7 +91,7 @@ sanvitalia
 
     <!-- https://mvnrepository.com/artifact/com.zenjava/javafx-maven-plugin -->
     <dependency>
-	    <groupId>com.zenjava</groupId>
-	    <artifactId>javafx-maven-plugin</artifactId>
-	    <version>8.7.0</version>
+        <groupId>com.zenjava</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>8.7.0</version>
     </dependency>
