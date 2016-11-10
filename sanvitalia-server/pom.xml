@@ -22,6 +22,7 @@
 
 	<!-- プロパティ -->
 	<properties>
+		<app.name>sanvitalia-server</app.name>
 	</properties>
 
 	<!-- 依存関係 -->
@@ -30,19 +31,30 @@
 
 	<!-- ビルド設定 -->
 	<build>
-		<finalName>sanvitalia-server</finalName>
+		<finalName>${app.name}</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>test/main/java</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</testResource>
+			<testResource>
+				<directory>test/main/resources</directory>
+			</testResource>
+		</testResources>
 		<plugins>
-			<!-- https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin -->
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<path>/sanvitalia</path>
-					<url>http://localhost:8080/sanvitalia</url>
-					<charset>UTF-8</charset>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 </project>

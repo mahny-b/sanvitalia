@@ -1,1 +1,6 @@
+/.project
+/.settings/
+/doc/
+/src/
 /target/
+/.DS_store
