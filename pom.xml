@@ -25,6 +25,14 @@
 		<!-- 同梱するもの -->
 
 		<!-- ローカル開発環境のみパスを通すもの -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api（ログ関連） -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>[1.7.21,1.8)</version>
+			<scope>provided</scope>
+		</dependency>
+
 
 		<!-- テスト用 -->
 		<!-- https://mvnrepository.com/artifact/junit/junit -->

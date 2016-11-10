@@ -15,7 +15,7 @@
 	<!-- プロジェクト定義 -->
 	<groupId>jp.gr.java_conf.mahny.sanvitalia.sanvitalia_commons</groupId>
 	<artifactId>sanvitalia-commons</artifactId>
-	<version>-DinteractiveMode=false</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	<name>sanvitalia-commons</name>
 	<url>https://github.com/mahny-b/sanvitalia</url>
